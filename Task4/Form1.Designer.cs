@@ -1,24 +1,24 @@
-﻿namespace lab1
+﻿namespace Task4
 {
-	partial class Form1
-	{
-		/// <summary>
-		///  Required designer variable.
-		/// </summary>
-		private System.ComponentModel.IContainer components = null;
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
 
-		/// <summary>
-		///  Clean up any resources being used.
-		/// </summary>
-		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-		protected override void Dispose(bool disposing)
-		{
-			if (disposing && (components != null))
-			{
-				components.Dispose();
-			}
-			base.Dispose(disposing);
-		}
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
 
         #region Windows Form Designer generated code
 
@@ -34,10 +34,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(42, 49);
+            button1.Location = new Point(63, 53);
             button1.Name = "button1";
             button1.Size = new Size(91, 37);
-            button1.TabIndex = 0;
+            button1.TabIndex = 1;
             button1.Text = "Sort";
             button1.UseVisualStyleBackColor = true;
             button1.Click += btnSort_Click;
@@ -46,10 +46,10 @@
             // 
             listBoxResults.FormattingEnabled = true;
             listBoxResults.ItemHeight = 15;
-            listBoxResults.Location = new Point(182, 49);
+            listBoxResults.Location = new Point(200, 53);
             listBoxResults.Name = "listBoxResults";
             listBoxResults.Size = new Size(472, 229);
-            listBoxResults.TabIndex = 1;
+            listBoxResults.TabIndex = 2;
             // 
             // Form1
             // 
