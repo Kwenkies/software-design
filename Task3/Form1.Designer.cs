@@ -1,24 +1,24 @@
-﻿namespace lab3
+﻿namespace Task3
 {
-	partial class Form1
-	{
-		/// <summary>
-		///  Required designer variable.
-		/// </summary>
-		private System.ComponentModel.IContainer components = null;
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
 
-		/// <summary>
-		///  Clean up any resources being used.
-		/// </summary>
-		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-		protected override void Dispose(bool disposing)
-		{
-			if (disposing && (components != null))
-			{
-				components.Dispose();
-			}
-			base.Dispose(disposing);
-		}
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
 
         #region Windows Form Designer generated code
 
@@ -35,17 +35,17 @@
             // listBoxBooks
             // 
             listBoxBooks.FormattingEnabled = true;
-            listBoxBooks.Location = new Point(271, 106);
+            listBoxBooks.Location = new Point(218, 104);
             listBoxBooks.Name = "listBoxBooks";
-            listBoxBooks.Size = new Size(427, 244);
-            listBoxBooks.TabIndex = 1;
+            listBoxBooks.Size = new Size(505, 264);
+            listBoxBooks.TabIndex = 0;
             // 
             // btnShowinfo
             // 
-            btnShowinfo.Location = new Point(41, 106);
+            btnShowinfo.Location = new Point(46, 104);
             btnShowinfo.Name = "btnShowinfo";
             btnShowinfo.Size = new Size(94, 29);
-            btnShowinfo.TabIndex = 2;
+            btnShowinfo.TabIndex = 1;
             btnShowinfo.Text = "Show Info";
             btnShowinfo.UseVisualStyleBackColor = true;
             btnShowinfo.Click += btnShowinfo_Click;
@@ -63,6 +63,7 @@
         }
 
         #endregion
+
         private ListBox listBoxBooks;
         private Button btnShowinfo;
     }
